@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F8FBFF"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#0B173D" opacity=".055"/>
+    </pattern>
+    <radialGradient id="softBlue" cx="20%" cy="25%" r="80%">
+      <stop offset="0" stop-color="#2EA8DB" stop-opacity=".09"/>
+      <stop offset=".55" stop-color="#2EA8DB" stop-opacity=".025"/>
+      <stop offset="1" stop-color="#2EA8DB" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="softRed" cx="85%" cy="70%" r="70%">
+      <stop offset="0" stop-color="#ED1C24" stop-opacity=".065"/>
+      <stop offset=".55" stop-color="#ED1C24" stop-opacity=".02"/>
+      <stop offset="1" stop-color="#ED1C24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="760" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="760" rx="34" fill="url(#dots)"/>
+  <rect width="1200" height="760" rx="34" fill="url(#softBlue)"/>
+  <rect width="1200" height="760" rx="34" fill="url(#softRed)"/>
+  <path d="M0 650 C250 560 420 675 618 562 C790 463 965 525 1200 430 L1200 760 L0 760 Z" fill="#0B173D" opacity=".035"/>
+</svg>

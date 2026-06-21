@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="300" viewBox="0 0 980 300">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.7" fill="#0B173D" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="980" height="300" fill="#fff"/>
+  <rect width="980" height="300" fill="url(#dots)"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M180 206 C350 120 572 88 810 150" stroke="#0B173D" stroke-width="7" opacity=".25"/>
+    <path d="M248 205 C346 130 550 105 746 154 C666 206 456 245 248 205Z" stroke="#2EA8DB" stroke-width="5" opacity=".7"/>
+    <path d="M390 150 L498 94 L692 128 L746 154 L622 205 L415 194Z" stroke="#0B173D" stroke-width="4" opacity=".65"/>
+    <path d="M496 94 C508 126 512 146 505 170" stroke="#ED1C24" stroke-width="3" opacity=".7"/>
+    <path d="M598 113 C606 148 606 174 595 202" stroke="#ED1C24" stroke-width="3" opacity=".7"/>
+    <path d="M410 194 C455 228 580 230 622 205" stroke="#0B173D" stroke-width="5" opacity=".45"/>
+    <path d="M744 160 L830 128" stroke="#2EA8DB" stroke-width="6" opacity=".55"/>
+    <path d="M812 122 L900 90" stroke="#0B173D" stroke-width="7" opacity=".2"/>
+    <path d="M116 94 l18 18 l-18 18 l-18 -18z" stroke="#0B173D" stroke-width="3" opacity=".22"/>
+    <path d="M72 170 l12 12 l-12 12 l-12 -12z" stroke="#0B173D" stroke-width="3" opacity=".18"/>
+    <path d="M196 62 C230 24 302 32 320 75 C281 58 234 60 196 62Z" stroke="#0B173D" stroke-width="3" opacity=".16"/>
+  </g>
+  <g transform="translate(116 52)">
+    <path d="M66 0 C100 12 120 42 104 78 C76 68 38 69 10 86 C2 52 20 16 66 0Z" fill="#fff" stroke="#0B173D" stroke-width="3" opacity=".25"/>
+    <text x="58" y="44" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#0B173D" opacity=".32">BIG</text>
+    <text x="58" y="73" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="28" fill="#0B173D" opacity=".32">IDEA</text>
+  </g>
+</svg>

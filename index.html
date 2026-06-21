@@ -1,7 +1,138 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Super Fun Innovations | Toy Invention Studio</title>
+  <meta name="description" content="Super Fun Innovations is a toy invention studio creating original concept IP, working prototypes, and pitch-ready materials for toy company partners.">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Welcome to Super Fun Innovations!</h1>
-<p>proper website coming soon!</p>
+  <!-- Super Fun Innovations homepage v24 copy + Batman image -->
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Super Fun Innovations home">
+      <img src="assets/sfi-logo-clean.png" alt="Super Fun Innovations logo">
+    </a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Toy invention studio</p>
+        <h1><span class="line-one">Toy ideas</span><span class="line-two">brought to</span><span class="line-three">life.</span></h1>
+        <p class="hero-text">Super Fun Innovations creates original toy concepts — helping bring high-impact products to market through our toy company partners.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="#work">View Our Work</a>
+          <a class="button button-secondary" href="mailto:adam@superfuninnovations.com">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true"></div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="section-heading"><span class="bolt blue"></span><h2>Featured Work</h2><span class="bolt red"></span></div>
+      <p class="section-intro">A look at our recently launched products.</p>
+
+      <div class="card-grid">
+        <article class="work-card project-card" data-project="grogu" tabindex="0" role="button" aria-label="View Pick-Me-Up Grogu project details">
+          <img src="assets/pick-me-up-grogu.jpg" alt="Pick-Me-Up Grogu plush product image">
+          <div class="card-label"><span class="icon blue">★</span><h3>Pick-Me-Up Grogu</h3></div>
+          <p>A 10-inch feature plush launched by Mattel for <em>Star Wars: The Mandalorian &amp; Grogu</em>. Lifting Grogu’s arms opens his eyes for a simple, repeatable character moment.</p>
+          <span class="view-project">View Project</span>
+        </article>
+
+        <article class="work-card project-card" data-project="batman" tabindex="0" role="button" aria-label="View DC Crime Crusher Batman project details">
+          <img src="assets/batman-primary.jpg" alt="DC Crime Crusher Batman action figure product image">
+          <div class="card-label"><span class="icon red">★</span><h3>Crime Crusher Batman</h3></div>
+          <p>A 12-inch Mattel DC feature figure with a crouched punching attack, 25+ phrases and sounds, 16 points of articulation, and four weapon accessories.</p>
+          <span class="view-project">View Project</span>
+        </article>
+
+        <article class="work-card soon">
+          <img src="assets/coming-soon-1.svg" alt="">
+          <div class="card-label"><span class="icon blue">?</span><h3>Coming Soon</h3></div>
+          <p>More Super Fun inventions coming soon!</p>
+        </article>
+
+        <article class="work-card soon">
+          <img src="assets/coming-soon-2.svg" alt="">
+          <div class="card-label"><span class="icon blue">?</span><h3>Coming Soon</h3></div>
+          <p>More Super Fun inventions coming soon!</p>
+        </article>
+
+        <article class="work-card soon">
+          <img src="assets/coming-soon-3.svg" alt="">
+          <div class="card-label"><span class="icon red">?</span><h3>Coming Soon</h3></div>
+          <p>More Super Fun inventions coming soon!</p>
+        </article>
+
+        <article class="work-card soon">
+          <img src="assets/coming-soon-4.svg" alt="">
+          <div class="card-label"><span class="icon blue">?</span><h3>Coming Soon</h3></div>
+          <p>More Super Fun inventions coming soon!</p>
+        </article>
+      </div>
+
+      <section class="mobile-project-detail" id="mobileProjectDetail" aria-hidden="true">
+        <button class="mobile-project-close" type="button" data-close-inline>Close Project ×</button>
+        <div class="mobile-project-content" id="mobileProjectContent"></div>
+      </section>
+    </section>
+
+    <section id="process" class="process">
+      <div class="section-heading inverse"><span class="bolt red"></span><h2>Our Process. Your Success.</h2><span class="bolt blue"></span></div>
+      <div class="steps">
+        <article><span class="step-number">1</span><div class="step-icon">💡</div><h3>Invent</h3><p>We create original, market-ready toy concepts.</p></article>
+        <article><span class="step-number">2</span><div class="step-icon">⚙</div><h3>Prototype</h3><p>We build working prototypes that bring ideas to life.</p></article>
+        <article><span class="step-number red">3</span><div class="step-icon">👥</div><h3>Develop</h3><p>We support our inventions with world-class electronic and mechanical concept development.</p></article>
+        <article><span class="step-number red">4</span><div class="step-icon">▣</div><h3>Pitch</h3><p>We deliver pitch-ready assets that help you win with retailers.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-copy">
+        <p class="eyebrow">Built for play. Designed to win.</p>
+        <h2>We combine invention, industrial design, engineering, and storytelling.</h2>
+        <p>Our concepts span all toy categories with high-end functioning demo models and pitch-ready presentation assets.</p>
+      </div>
+      <img class="sketch-panel" src="assets/sketch-panel.webp" alt="">
+    </section>
+
+    <section id="contact" class="cta">
+      <img class="burst-image" src="assets/cta-burst.png" alt="Let’s make something super fun">
+      <div class="cta-copy">
+        <h2>Are you a toy company looking for new product innovation? Let’s create the next great toy together.</h2>
+        <a class="button button-dark" href="mailto:adam@superfuninnovations.com">Get in Touch Today</a>
+      </div>
+    </section>
+  </main>
+  <div class="project-modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" type="button" aria-label="Close project details" data-close-modal>×</button>
+      <div class="modal-content">
+        <div class="modal-hero">
+          <img id="modalHeroImage" src="" alt="">
+        </div>
+        <div class="modal-copy">
+          <p class="modal-eyebrow" id="modalEyebrow"></p>
+          <h2 id="modalTitle"></h2>
+          <p class="modal-description" id="modalDescription"></p>
+          <div class="modal-actions" id="modalActions"></div>
+        </div>
+        <div class="modal-gallery" id="modalGallery"></div>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>

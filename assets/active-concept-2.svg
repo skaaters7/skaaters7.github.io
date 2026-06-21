@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ED1C24" stop-opacity=".16"/>
+    </linearGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="2" fill="#0B173D" opacity=".08"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="760" rx="34" fill="url(#g)"/>
+  <rect width="1200" height="760" fill="url(#dots)"/>
+  <path d="M0 560 C210 490 340 620 565 510 C760 415 925 500 1200 390 L1200 760 L0 760 Z" fill="#ED1C24" opacity=".16"/>
+  <rect x="375" y="165" width="450" height="270" rx="48" fill="#fff" stroke="#0B173D" stroke-width="10"/>
+  <circle cx="600" cy="305" r="105" fill="#ED1C24"/>
+  <text x="600" y="340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="86" fill="#fff">02</text>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="58" fill="#0B173D">Active Concept</text>
+  <text x="600" y="632" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#0B173D" opacity=".65">More work in development</text>
+</svg>
